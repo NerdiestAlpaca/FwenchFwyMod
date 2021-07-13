@@ -156,6 +156,24 @@ class Character extends FlxSprite
 					addOffset("singDOWN");
 	
 					playAnim('idle');
+
+					case 'fwenchfwyshock':
+						tex = Paths.getSparrowAtlas('characters/Fwench Fwy Shocked', 'shared');
+						frames = tex;
+						animation.addByPrefix('idle', 'Fwench Fwy Idle Shock', 24);
+						animation.addByPrefix('singUP', 'Fwench Fwy Shocked Up', 24);
+						animation.addByPrefix('singRIGHT', 'Fwench Fwy Shocked Right', 24);
+						animation.addByPrefix('singDOWN', 'Fwench Fwy Shocked Down', 24);
+						animation.addByPrefix('singLEFT', 'Fwench Fwy Shocked Left', 24);
+					
+						addOffset('idle');
+						addOffset("singUP");
+						addOffset("singRIGHT");
+						addOffset("singLEFT");
+						addOffset("singDOWN");
+					
+						playAnim('idle');
+						
 			case 'spooky':
 				tex = Paths.getSparrowAtlas('characters/spooky_kids_assets');
 				frames = tex;
