@@ -1,0 +1,75 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TextureAtlas imagePath="portraits.png">
+	<!-- Created with Adobe Animate version 20.0.0.17400 -->
+	<!-- http://www.adobe.com/products/animate.html -->
+	<SubTexture name="bf0000" x="0" y="0" width="311" height="240" pivotX="4.8" pivotY="-1.75"/>
+	<SubTexture name="bf0001" x="312" y="0" width="311" height="240"/>
+	<SubTexture name="bf0002" x="0" y="0" width="311" height="240"/>
+	<SubTexture name="bf0003" x="0" y="0" width="311" height="240"/>
+	<SubTexture name="bf0004" x="312" y="0" width="311" height="240"/>
+	<SubTexture name="bf0005" x="312" y="0" width="311" height="240"/>
+	<SubTexture name="bf0006" x="0" y="0" width="311" height="240"/>
+	<SubTexture name="bf0007" x="0" y="0" width="311" height="240"/>
+	<SubTexture name="bf0008" x="312" y="0" width="311" height="240"/>
+	<SubTexture name="bf0009" x="0" y="0" width="311" height="240"/>
+	<SubTexture name="bf0010" x="0" y="0" width="311" height="240"/>
+	<SubTexture name="bf0011" x="0" y="0" width="311" height="240"/>
+	<SubTexture name="bf0012" x="0" y="0" width="311" height="240"/>
+	<SubTexture name="bf0013" x="0" y="0" width="311" height="240"/>
+	<SubTexture name="fwenchfwy0000" x="624" y="0" width="311" height="239" pivotX="4.8" pivotY="-2.9"/>
+	<SubTexture name="fwenchfwy0001" x="624" y="0" width="311" height="239"/>
+	<SubTexture name="fwenchfwy0002" x="0" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwy0003" x="0" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwy0004" x="0" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwy0005" x="312" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwy0006" x="312" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwy0007" x="312" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwy0008" x="312" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwy0009" x="0" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwy0010" x="0" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwy0011" x="0" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwy0012" x="312" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwy0013" x="312" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0000" x="624" y="241" width="311" height="239" pivotX="4.8" pivotY="-2.9"/>
+	<SubTexture name="fwenchfwyshock0001" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0002" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0003" x="624" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0004" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0005" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0006" x="624" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0007" x="624" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0008" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0009" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0010" x="624" y="241" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0011" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0012" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="fwenchfwyshock0013" x="624" y="241" width="311" height="239"/>
+	<SubTexture name="gf0000" x="312" y="481" width="282" height="235" pivotX="4.8" pivotY="-6.05"/>
+	<SubTexture name="gf0001" x="312" y="481" width="282" height="235"/>
+	<SubTexture name="gf0002" x="595" y="481" width="282" height="235"/>
+	<SubTexture name="gf0003" x="595" y="481" width="282" height="235"/>
+	<SubTexture name="gf0004" x="312" y="481" width="282" height="235"/>
+	<SubTexture name="gf0005" x="312" y="481" width="282" height="235"/>
+	<SubTexture name="gf0006" x="312" y="481" width="282" height="235"/>
+	<SubTexture name="gf0007" x="595" y="481" width="282" height="235"/>
+	<SubTexture name="gf0008" x="595" y="481" width="282" height="235"/>
+	<SubTexture name="gf0009" x="595" y="481" width="282" height="235"/>
+	<SubTexture name="gf0010" x="595" y="481" width="282" height="235"/>
+	<SubTexture name="gf0011" x="312" y="481" width="282" height="235"/>
+	<SubTexture name="gf0012" x="312" y="481" width="282" height="235"/>
+	<SubTexture name="gf0013" x="312" y="481" width="282" height="235"/>
+	<SubTexture name="iscream0000" x="0" y="721" width="247" height="241" pivotX="-48.6" pivotY="0.4"/>
+	<SubTexture name="iscream0001" x="0" y="721" width="247" height="241"/>
+	<SubTexture name="iscream0002" x="0" y="721" width="247" height="241"/>
+	<SubTexture name="iscream0003" x="0" y="721" width="247" height="241"/>
+	<SubTexture name="iscream0004" x="0" y="721" width="247" height="241"/>
+	<SubTexture name="iscream0005" x="0" y="721" width="247" height="241"/>
+	<SubTexture name="iscream0006" x="0" y="721" width="247" height="241"/>
+	<SubTexture name="iscream0007" x="0" y="721" width="247" height="241"/>
+	<SubTexture name="iscream0008" x="0" y="721" width="247" height="241"/>
+	<SubTexture name="iscream0009" x="0" y="721" width="247" height="241"/>
+	<SubTexture name="iscream0010" x="0" y="721" width="247" height="241"/>
+	<SubTexture name="iscream0011" x="0" y="721" width="247" height="241"/>
+	<SubTexture name="iscream0012" x="0" y="721" width="247" height="241"/>
+	<SubTexture name="iscream0013" x="0" y="721" width="247" height="241"/>
+</TextureAtlas>
