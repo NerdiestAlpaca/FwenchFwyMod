@@ -136,7 +136,7 @@ class DialogueBox extends FlxSpriteGroup
 		portraitRight2.frames = Paths.getSparrowAtlas('dialogue/portraits');
 		portraitRight2.animation.addByPrefix('enter', 'gf', 24, false);
 		portraitRight2.scrollFactor.set();
-		add(portraitRight);
+		add(portraitRight2);
 		portraitRight2.visible = false;
 		
 		box.animation.play('normalOpen');
