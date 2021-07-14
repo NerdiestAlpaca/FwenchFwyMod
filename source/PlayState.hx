@@ -2739,6 +2739,7 @@ class PlayState extends MusicBeatState
 
 				if (storyPlaylist.length <= 0)
 				{
+					LoadingState.loadAndSwitchState(new VideoState("assets/videos/trailer.webm", loadplayState));
 					transIn = FlxTransitionableState.defaultTransIn;
 					transOut = FlxTransitionableState.defaultTransOut;
 
@@ -2773,6 +2774,9 @@ class PlayState extends MusicBeatState
 
 					FlxG.save.data.weekUnlocked = StoryMenuState.weekUnlocked;
 					FlxG.save.flush();
+				}
+				function loadplayState(){
+					LoadingState.loadAndSwitchState(new PlayState(), true);
 				}
 				else
 				{
