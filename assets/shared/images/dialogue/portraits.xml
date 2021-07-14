@@ -30,20 +30,20 @@
 	<SubTexture name="fwenchfwy0011" x="0" y="241" width="311" height="239"/>
 	<SubTexture name="fwenchfwy0012" x="312" y="241" width="311" height="239"/>
 	<SubTexture name="fwenchfwy0013" x="312" y="241" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0000" x="624" y="241" width="311" height="239" pivotX="4.8" pivotY="-2.9"/>
-	<SubTexture name="fwenchfwyshock0001" x="0" y="481" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0002" x="0" y="481" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0003" x="624" y="241" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0004" x="0" y="481" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0005" x="0" y="481" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0006" x="624" y="241" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0007" x="624" y="241" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0008" x="0" y="481" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0009" x="0" y="481" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0010" x="624" y="241" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0011" x="0" y="481" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0012" x="0" y="481" width="311" height="239"/>
-	<SubTexture name="fwenchfwyshock0013" x="624" y="241" width="311" height="239"/>
+	<SubTexture name="shock0000" x="624" y="241" width="311" height="239" pivotX="4.8" pivotY="-2.9"/>
+	<SubTexture name="shock0001" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="shock0002" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="shock0003" x="624" y="241" width="311" height="239"/>
+	<SubTexture name="shock0004" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="shock0005" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="shock0006" x="624" y="241" width="311" height="239"/>
+	<SubTexture name="shock0007" x="624" y="241" width="311" height="239"/>
+	<SubTexture name="shock0008" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="shock0009" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="shock0010" x="624" y="241" width="311" height="239"/>
+	<SubTexture name="shock0011" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="shock0012" x="0" y="481" width="311" height="239"/>
+	<SubTexture name="shock0013" x="624" y="241" width="311" height="239"/>
 	<SubTexture name="gf0000" x="312" y="481" width="282" height="235" pivotX="4.8" pivotY="-6.05"/>
 	<SubTexture name="gf0001" x="312" y="481" width="282" height="235"/>
 	<SubTexture name="gf0002" x="595" y="481" width="282" height="235"/>
