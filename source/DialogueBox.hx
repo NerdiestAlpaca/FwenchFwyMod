@@ -104,35 +104,35 @@ class DialogueBox extends FlxSpriteGroup
 		if (!hasDialog)
 			return;
 		
-		portraitLeft = new FlxSprite(-20, 40);
+		portraitLeft = new FlxSprite(-20, 300);
 		portraitLeft.frames = Paths.getSparrowAtlas('dialogue/portraits');
 		portraitLeft.animation.addByPrefix('enter', 'fwenchfwy', 24, false);
 		portraitLeft.scrollFactor.set();
 		add(portraitLeft);
 		portraitLeft.visible = false;
 
-		portraitLeft2 = new FlxSprite(-20, 40);
+		portraitLeft2 = new FlxSprite(-20, 300);
 		portraitLeft2.frames = Paths.getSparrowAtlas('dialogue/portraits');
 		portraitLeft2.animation.addByPrefix('enter', 'fwenchfwyshock', 24, false);
 		portraitLeft2.scrollFactor.set();
 		add(portraitLeft2);
 		portraitLeft2.visible = false;
 		
-		portraitLeft3 = new FlxSprite(-20, 40);
+		portraitLeft3 = new FlxSprite(-20, 300);
 		portraitLeft3.frames = Paths.getSparrowAtlas('dialogue/portraits');
 		portraitLeft3.animation.addByPrefix('enter', 'iscream', 24, false);
 		portraitLeft3.scrollFactor.set();
 		add(portraitLeft3);
 		portraitLeft3.visible = false;
 
-		portraitRight = new FlxSprite(-20, 40);
+		portraitRight = new FlxSprite(-20, 300);
 		portraitRight.frames = Paths.getSparrowAtlas('dialogue/portraits');
 		portraitRight.animation.addByPrefix('enter', 'bf', 24, false);
 		portraitRight.scrollFactor.set();
 		add(portraitRight);
 		portraitRight.visible = false;
 
-		portraitRight2 = new FlxSprite(-20, 40);
+		portraitRight2 = new FlxSprite(-20, 300);
 		portraitRight2.frames = Paths.getSparrowAtlas('dialogue/portraits');
 		portraitRight2.animation.addByPrefix('enter', 'gf', 24, false);
 		portraitRight2.scrollFactor.set();
@@ -140,12 +140,10 @@ class DialogueBox extends FlxSpriteGroup
 		portraitRight2.visible = false;
 		
 		box.animation.play('normalOpen');
-		box.setGraphicSize(Std.int(box.width * PlayState.daPixelZoom * 0.9));
 		box.updateHitbox();
 		add(box);
 
 		box.screenCenter(X);
-		portraitLeft.screenCenter(X);
 
 		handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox'));
 		add(handSelect);

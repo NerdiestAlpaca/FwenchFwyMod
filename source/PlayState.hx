@@ -2775,9 +2775,7 @@ class PlayState extends MusicBeatState
 					FlxG.save.data.weekUnlocked = StoryMenuState.weekUnlocked;
 					FlxG.save.flush();
 				}
-				function loadplayState(){
-					LoadingState.loadAndSwitchState(new PlayState(), true);
-				}
+
 				else
 				{
 					
@@ -2833,7 +2831,10 @@ class PlayState extends MusicBeatState
 		}
 	}
 
-
+	function loadplayState(){
+		LoadingState.loadAndSwitchState(new PlayState(), true);
+	}
+	
 	var endingSong:Bool = false;
 
 	var hits:Array<Float> = [];
