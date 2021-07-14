@@ -1,3 +1,4 @@
 Tutorial:gf:1
 Wish:fwenchfwy:1
 Purification:fwenchfwyshock:1
+Chaos:fwyscream:1

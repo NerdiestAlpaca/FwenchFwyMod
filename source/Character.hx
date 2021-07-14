@@ -173,6 +173,31 @@ class Character extends FlxSprite
 						addOffset("singDOWN");
 					
 						playAnim('idle');
+
+						case 'fwyscream':
+							tex = Paths.getSparrowAtlas('characters/Fwyscream', 'shared');
+							frames = tex;
+							animation.addByPrefix('idle', 'Idle', 24);
+							animation.addByPrefix('singUP', 'Fwench Fwy Sing Up', 24);
+							animation.addByPrefix('singRIGHT', 'Fwench Fwy Sing Right', 24);
+							animation.addByPrefix('singDOWN', 'Fwench Fwy Sing Down', 24);
+							animation.addByPrefix('singLEFT', 'Fwench Fwy Sing Left', 24);
+							animation.addByPrefix('singUP-alt', 'Iscream Sing Up', 24);
+							animation.addByPrefix('singRIGHT-alt', 'Iscream Sing Right', 24);
+							animation.addByPrefix('singDOWN-alt', 'Iscream Sing Down', 24);
+							animation.addByPrefix('singLEFT-alt', 'Iscream Sing Left', 24);
+						
+							addOffset('idle');
+							addOffset("singUP");
+							addOffset("singRIGHT");
+							addOffset("singLEFT");
+							addOffset("singDOWN");
+							addOffset("singUP-alt");
+							addOffset("singRIGHT-alt");
+							addOffset("singLEFT-alt");
+							addOffset("singDOWN-alt");
+						
+							playAnim('idle');
 						
 			case 'spooky':
 				tex = Paths.getSparrowAtlas('characters/spooky_kids_assets');
