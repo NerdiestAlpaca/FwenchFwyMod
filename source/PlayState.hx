@@ -2738,8 +2738,6 @@ class PlayState extends MusicBeatState
 				storyPlaylist.remove(storyPlaylist[0]);
 
 				if (storyPlaylist.length <= 0)
-				{
-					LoadingState.loadAndSwitchState(new VideoState("assets/videos/trailer.webm", loadplayState));
 					transIn = FlxTransitionableState.defaultTransIn;
 					transOut = FlxTransitionableState.defaultTransOut;
 
@@ -2809,9 +2807,6 @@ class PlayState extends MusicBeatState
 
 					PlayState.SONG = Song.loadFromJson(poop, PlayState.storyPlaylist[0]);
 					FlxG.sound.music.stop();
-
-					LoadingState.loadAndSwitchState(new PlayState());
-				}
 			}
 			else
 			{
@@ -2834,7 +2829,7 @@ class PlayState extends MusicBeatState
 	function loadplayState(){
 		LoadingState.loadAndSwitchState(new PlayState(), true);
 	}
-	
+
 	var endingSong:Bool = false;
 
 	var hits:Array<Float> = [];
