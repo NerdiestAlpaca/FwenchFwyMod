@@ -742,6 +742,25 @@ class PlayState extends MusicBeatState
 	
 						add(stageCurtains);
 				}
+
+				case 'valley':
+					{
+							defaultCamZoom = 0.8;
+							curStage = 'valley';
+							var bg:FlxSprite = new FlxSprite(-600, -200).loadGraphic(Paths.image('valleyback'));
+							bg.antialiasing = true;
+							bg.scrollFactor.set(0.8, 0.8);
+							bg.active = false;
+							add(bg);
+				
+							var stageFront:FlxSprite = new FlxSprite(-650, 600).loadGraphic(Paths.image('valleyfront'));
+							stageFront.setGraphicSize(Std.int(stageFront.width * 1.1));
+							stageFront.updateHitbox();
+							stageFront.antialiasing = true;
+							stageFront.scrollFactor.set(0.8, 0.8);
+							stageFront.active = false;
+							add(stageFront);
+					}
 			default:
 			{
 					defaultCamZoom = 0.9;
