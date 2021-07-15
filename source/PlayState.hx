@@ -2885,15 +2885,16 @@ class PlayState extends MusicBeatState
 			{
 				case 'shit':
 					score = 0;
-					health -= 0.05;
+					misses++;
+					health -= 0.03;
 					ss = false;
 					shits++;
 					if (FlxG.save.data.accuracyMod == 0)
-						totalNotesHit += 0.25;
+						totalNotesHit -= 1;
 				case 'bad':
 					daRating = 'bad';
 					score = 100;
-					health -= 0.01;
+					health -= 0;
 					ss = false;
 					bads++;
 					if (FlxG.save.data.accuracyMod == 0)
