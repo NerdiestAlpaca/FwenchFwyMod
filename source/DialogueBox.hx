@@ -104,35 +104,35 @@ class DialogueBox extends FlxSpriteGroup
 		if (!hasDialog)
 			return;
 		
-		portraitLeft = new FlxSprite(-20, 300);
+		portraitLeft = new FlxSprite(-20, 270);
 		portraitLeft.frames = Paths.getSparrowAtlas('dialogue/portraits');
 		portraitLeft.animation.addByPrefix('enter', 'fwenchfwy', 24, false);
 		portraitLeft.scrollFactor.set();
 		add(portraitLeft);
 		portraitLeft.visible = false;
 
-		portraitLeft2 = new FlxSprite(-20, 300);
+		portraitLeft2 = new FlxSprite(-20, 270);
 		portraitLeft2.frames = Paths.getSparrowAtlas('dialogue/portraits');
 		portraitLeft2.animation.addByPrefix('enter', 'shock', 24, false);
 		portraitLeft2.scrollFactor.set();
 		add(portraitLeft2);
 		portraitLeft2.visible = false;
 		
-		portraitLeft3 = new FlxSprite(-20, 300);
+		portraitLeft3 = new FlxSprite(-20, 270);
 		portraitLeft3.frames = Paths.getSparrowAtlas('dialogue/portraits');
 		portraitLeft3.animation.addByPrefix('enter', 'iscream', 24, false);
 		portraitLeft3.scrollFactor.set();
 		add(portraitLeft3);
 		portraitLeft3.visible = false;
 
-		portraitRight = new FlxSprite(-20, 300);
+		portraitRight = new FlxSprite(-20, 270);
 		portraitRight.frames = Paths.getSparrowAtlas('dialogue/portraits');
 		portraitRight.animation.addByPrefix('enter', 'bf', 24, false);
 		portraitRight.scrollFactor.set();
 		add(portraitRight);
 		portraitRight.visible = false;
 
-		portraitRight2 = new FlxSprite(-20, 300);
+		portraitRight2 = new FlxSprite(-20, 270);
 		portraitRight2.frames = Paths.getSparrowAtlas('dialogue/portraits');
 		portraitRight2.animation.addByPrefix('enter', 'gf', 24, false);
 		portraitRight2.scrollFactor.set();
@@ -145,7 +145,7 @@ class DialogueBox extends FlxSpriteGroup
 
 		box.screenCenter(X);
 
-		handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox'));
+		handSelect = new FlxSprite(FlxG.width * 0.9, FlxG.height * 0.9).loadGraphic(Paths.image('weeb/pixelUI/hand_textbox',"week6"));
 		add(handSelect);
 
 
@@ -154,14 +154,14 @@ class DialogueBox extends FlxSpriteGroup
 			// box.flipX = true;
 		}
 
-		dropText = new FlxText(242, 502, Std.int(FlxG.width * 0.6), "", 32);
+		dropText = new FlxText(242, 522, Std.int(FlxG.width * 0.6), "", 32);
 		dropText.font = 'Pixel Arial 11 Bold';
 		dropText.color = 0xFFD89494;
 		add(dropText);
 
-		swagDialogue = new FlxTypeText(240, 500, Std.int(FlxG.width * 0.6), "", 32);
+		swagDialogue = new FlxTypeText(240, 520, Std.int(FlxG.width * 0.6), "", 32);
 		swagDialogue.font = 'Pixel Arial 11 Bold';
-		swagDialogue.color = 0xFF3F2021;
+		swagDialogue.color = 0xFF000000;
 		swagDialogue.sounds = [FlxG.sound.load(Paths.sound('pixelText'), 0.6)];
 		add(swagDialogue);
 
